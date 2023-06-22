@@ -6,16 +6,16 @@ This is my sollution for the technical challenge. Using Java and SpringBoot, for
 ---
 ## Instalation
 
-- To run the application you will need docker-compose to run the RabbitMQ and the Database.
+- run docker-compose up on the docker folder, to create the database and RabbitMQ
 - Java 11 installed on your machine.
-- You will need to enter in [this address](localhost:15672) login with `guest/guest` credentials and create a Queue named `votingResult` before starting the application for the first time. 
+- You will need to enter in localhost:15672 login with `guest/guest` credentials and create a Queue named `votingResult` before starting the application for the first time. 
 
 >Informations about database connectivity will be on the default `application.yml`.
 
 
 ## Documentation
 
-- http://server:port/api/challenge-service/swagger-ui.html
+- http://localhost:7001/api/challenge-service/swagger-ui.html
 
 ## Versioning
 
